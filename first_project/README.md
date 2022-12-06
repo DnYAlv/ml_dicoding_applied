@@ -34,6 +34,27 @@ Data Kualitatif merupakan data yang berbentuk kata - kata dan pada data ini, var
 - Data Kuantitatif
 Data Kuantitatif merupakan data yang berbentuk angka dan dapat dihitung secara statistik dan matematis. Pada data ini, terdapat variabel yang termasuk data kuantitatif yaitu pm10, pm25, so2, co, o3, no2, dan max.
 
+Kolom yang digunakan pada dataset ini yaitu:
+| Kolom | Deskripsi |
+|-------|-----------|
+| tanggal | Tanggal pengukuran kualitas udara |
+| stasiun | Lokasi pengukuran di stasiun yang ada |
+| pm10 | Partikulat 10 mikrometer sebagai salah satu parameter indikator |
+| pm25 | Partikulat 25 mikrometer sebagai salah satu parameter indikator |
+| so2 | Kadar Sulfida yang merupakan salah satu parameter indikator |
+| co | Kadar karbon monoksida |
+| o3 | Kadar ozon |
+| no2 | Kadar nitrogran dioksida |
+| max | Nilai ukur paling tinggi dari seluruh parameter yang diukur pada waktu yang sama |
+| critical | Parameter indikator yang hasil pengukurannya paling tinggi |
+| categori | Kategori yang menentukan kualitas udara |
+
+Dataset ini dikumpulkan dari berbagai data yang ada selama tahun 2021, dan di penelitian ini, dataset yang digunakan adalah dataset dari bulan Januari 2021 hingga Desember 2021 dengan jumlah data sebesar:
+
+| Kolom | Jumlah Data |
+|-------|-------------|
+| 11    | 1825        |
+
 ## Data Preparation
 Data yang telah dikumpulkan memiliki 1825 record dan 11 atribut termasuk variabel target. Setelah data dikumpulkan, maka data akan dianalisis untuk mengetahui dan mempelajari atribut yang tersedia. Pada tahap ini, dilakukan juga preparasi data untuk memastikan bahwa data tersebut layak untuk diteliti.
 
