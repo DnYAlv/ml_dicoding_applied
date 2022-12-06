@@ -223,6 +223,16 @@ Setelah percobaan tersebut, maka dapat dilihat bahwa dari ketiga model yang dico
 
 Maka, dapat disimpulkan bahwa final model menggunakan Logistic Regression dengan Gradient Descent memiliki performa yang tinggi meski dengan menggunakan dataset yang tidak pernah dilihat.
 
+## Conclusion
+Dari berbagai macam model yang telah dibuat dengan Cross Validation (5 - folds),
+yaitu Logistic Regression, K Nearest Neighbour (KNN), dan Naive Bayes. Didapatkan bahwa
+model akhir menggunakan Logistic Regression memiliki performa yang sangat baik. Model
+ini tetap menghasilkan performa yang sangat baik ketika menggunakan Unseen dataset (20%
+dari dataset) sehingga dapat dikatakan bahwa model tersebut tidak Overfitting.
+
+**Recommendation**
+Alangkah lebih baik apabila data yang didapatkan bisa lebih besar, hal ini bertujuan untuk melihat apakah performa model ini tetap berjalan baik pada data yang banyak
+
 ## References
 [1] disperkimta, “Sumber Dan Penyebab pencemaran udara,” Dinas Perumahan, Kawasan Permukiman dan Pertanahan, 2019. Available: https://disperkimta.bulelengkab.go.id/informasi/detail/artikel/sumber-dan-penyebab-pencemaran-udara-75
 
