@@ -230,7 +230,7 @@ model akhir menggunakan Logistic Regression memiliki performa yang sangat baik. 
 ini tetap menghasilkan performa yang sangat baik ketika menggunakan Unseen dataset (20%
 dari dataset) sehingga dapat dikatakan bahwa model tersebut tidak Overfitting.
 
-**Recommendation**
+### Recommendation
 Alangkah lebih baik apabila data yang didapatkan bisa lebih besar, hal ini bertujuan untuk melihat apakah performa model ini tetap berjalan baik pada data yang banyak
 
 ## References
