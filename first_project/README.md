@@ -14,6 +14,7 @@ Berdasarkan data serta informasi di atas, polutan udara memiliki keterkaitan yan
 ### Problem Statements
 - Bagaimana membangun model prediksi kualitas udara di DKI Jakarta dengan menggunakan metode Logistic Regression, Naive Bayes dan K Nearest Neighbour (KNN)?
 - Metode manakah yang memiliki akurasi yang paling tinggi?
+- Apakah manfaat dari penelitian dan eksperimen ini terhadap masyarakat dan pemerintah?
 
 ### Goals
 Penelitian ini bertujuan untuk:
@@ -26,7 +27,7 @@ Penelitian ini menggunakan data dari Jakarta Open Data mengenai SPKU Pencemaran 
 
 https://data.jakarta.go.id/dataset/indeks-standar-pencemaran-udara-ispu-tahun-2021
 
-Pada data yang kami ambil untuk penelitian ini, terdapat dua jenis data yaitu data kualitatif dan data kuantitatif.
+Terdapat dua jenis data pada dataset ini yaitu data kualitatif dan data kuantitatif.
 
 - Data Kualitatif
 Data Kualitatif merupakan data yang berbentuk kata - kata dan pada data ini, variabel yang berupa kualitatif yaitu tanggal, stasiun, jenis critical, dan variabel target “categori” mengenai kualitas udara.
@@ -54,6 +55,12 @@ Dataset ini dikumpulkan dari berbagai data yang ada selama tahun 2021, dan di pe
 | Kolom | Jumlah Data |
 |-------|-------------|
 | 11    | 1825        |
+
+Dan untuk pembagian dataset, dataset ini akan dibagi menjadi 2 yaitu, train dataset (80%) dan test dataset (20%).
+
+| Train (80%) | Test (20%) |
+|-------------|------------|
+| 1460        | 365        |
 
 ## Data Preparation
 Data yang telah dikumpulkan memiliki 1825 record dan 11 atribut termasuk variabel target. Setelah data dikumpulkan, maka data akan dianalisis untuk mengetahui dan mempelajari atribut yang tersedia. Pada tahap ini, dilakukan juga preparasi data untuk memastikan bahwa data tersebut layak untuk diteliti.
