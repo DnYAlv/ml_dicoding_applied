@@ -58,9 +58,9 @@ Dataset ini dikumpulkan dari berbagai data yang ada selama tahun 2021, dan di pe
 
 Dan untuk pembagian dataset, dataset ini akan dibagi menjadi 2 yaitu, train dataset (80%) dan test dataset (20%).
 
-| Train (80%) | Test (20%) |
-|-------------|------------|
-| 1460        | 365        |
+| | Train (80%) | Test (20%) |
+|-|-------------|------------|
+|Jumlah Data| 1460        | 365        |
 
 ## Data Preparation
 Data yang telah dikumpulkan memiliki 1825 record dan 11 atribut termasuk variabel target. Setelah data dikumpulkan, maka data akan dianalisis untuk mengetahui dan mempelajari atribut yang tersedia. Pada tahap ini, dilakukan juga preparasi data untuk memastikan bahwa data tersebut layak untuk diteliti.
